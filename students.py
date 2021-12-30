@@ -12,7 +12,7 @@ students_grade_report = {
     'Leonardo da Vinci': {'math': [10, 10, 10], 'chemistry': [10, 10, 10]}}
 
 all_subjects = ["math", "chemistry", "physic", "sport"]
-symbols = list(string.ascii_lowercase)
+symbols = list(string.ascii_lowercase)+list(string.punctuation)
 
 def find_opertaion(user_input):
     print("\nLoading...")
